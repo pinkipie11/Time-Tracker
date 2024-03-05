@@ -1,0 +1,22 @@
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.eventDescription {
+  font-size: 0.8rem;
+}
+
+.event-component {
+  font-size: 0.8rem;
+}
+
+.eventTime {
+  font-size: 0.8rem; /* Smaller font size for time */
+  /* Additional styling as needed */
+}
+.event-hover:hover {
+  background-color: lightgray; /* Primjer stiliziranja za hover efekt */
+}

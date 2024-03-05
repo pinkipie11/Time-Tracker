@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.top1 {
+  padding: 10px 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tagsTitle {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.top2 {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px 0px 10px 20px;
+  background-color: #fff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filters {
+  font-size: 0.8rem;
+  font-weight: 550;
+  color: #69656b;
+}
+
+.filterButton {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.newNavbar {
+  background-color: #fff;
+  padding: 10px 30px;
+  margin-top: 2px;
+  /* border-top: 1px solid #e2e8f0; */
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bulkDelete {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bulkBtn {
+  background-color: #3182ce;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.bulkBtn:hover {
+  background-color: #1034e8;
+}
+
+.tagChevron {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chevronIcon {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.tagLabel {
+  font-size: 12px;
+  color: gray;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.tagList {
+  padding: 30px 30px 30px 0px;
+}
+
+.tagItem {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}

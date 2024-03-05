@@ -1,0 +1,142 @@
+.container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 95.5vh;
+  overflow: hidden;
+  /* padding-top: 3%; */
+}
+.top1 {
+  /* border: 1px solid grey; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+.top1 > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.newBtn {
+  background-color: #3182ce;
+  padding: 5px;
+  border-radius: 10px;
+  width: 127px;
+  height: 36px;
+  color: white;
+  font-weight: 500;
+}
+.newBtn:hover {
+  background-color: #1034e8;
+}
+
+.top2 {
+  /* border: 1px solid grey; */
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px 0px 10px 20px;
+  background-color: #ffff;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.filter {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  font-weight: 550;
+  padding-top: 10px;
+  color: #69656b;
+  display: flex;
+  gap: 20px;
+}
+.filter > div {
+  display: flex;
+  gap: 10px;
+}
+.filter > div:hover {
+  color: black;
+  cursor: pointer;
+}
+.top3 {
+  /* border: 1px solid red; */
+  margin-top: 0px;
+  background-color: #ffff;
+  padding: 20px;
+}
+.bulkBtn {
+  border: 1px solid grey;
+  padding: 5px;
+  display: flex;
+  border-radius: 10px;
+}
+.title {
+  display: flex;
+  justify-content: left;
+  gap: 150px;
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.titleList {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px; /* već ste definisali ovo za .title, pa prenosimo ovdje */
+}
+.titleItem {
+  flex: 1; /* Distribuirajte prostor ravnomerno među stavkama */
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  padding-top: 20px; /* već ste definisali ovo za .title, pa prenosimo ovdje */
+}
+
+.titleItem:hover {
+  cursor: pointer;
+  color: black;
+}
+.title > div {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  display: flex;
+}
+.title > div:hover {
+  cursor: pointer;
+}
+.item {
+  flex: 1;
+  text-align: center;
+}
+.map {
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+  padding: 20px 0px 20px 0px;
+  background-color: #ffff;
+}
+.map > div:hover {
+  cursor: pointer;
+}
+.columnTitles,
+.dataRows {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) auto;
+}
+
+.dataRows > div {
+  display: flex;
+  align-items: center;
+}
+
+/* Media Query za male ekrane */
+@media (max-width: 600px) {
+  .columnTitles,
+  .dataRows {
+    /* Sve kolone idu jedna ispod druge na malim ekranima*/
+    grid-template-columns: 1fr;
+  }
+}

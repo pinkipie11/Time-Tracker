@@ -1,0 +1,33 @@
+/* Styles for FullCalendar's header */
+.fc .fc-toolbar-title {
+  font-size: 16px;
+  color: #333333;
+}
+
+.fc .fc-col-header-cell {
+  background-color: #f3f4f6; /* light gray background */
+  color: #1f2937; /* dark gray text */
+  padding: 10px 0;
+  border: none;
+}
+
+.fc .fc-daygrid-day-top {
+  text-align: center;
+  font-weight: bold;
+}
+
+.fc .fc-daygrid-day {
+  border: 1px solid #e5e7eb; /* light gray border */
+}
+
+/* Custom styles for the current day */
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #60a5fa; /* light blue background */
+  color: white;
+}
+
+/* Style for the day numbers */
+.fc .fc-daygrid-day-number {
+  font-size: 10px;
+  font-weight: bold;
+}

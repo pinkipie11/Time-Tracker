@@ -1,0 +1,9 @@
+.top2 {
+  /* border: 1px solid grey; */
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px 0px 10px 20px;
+  background-color: #ffff;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
