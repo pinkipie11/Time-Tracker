@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.74-alpha">
+  <PropertyGroup>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+   
+    <!-- Folder where production build objects will be placed -->
+    
+    <BuildOutputFolder>C:\OneDrive\1permil\Code\1PermilNetCoreSite\1PermilNetCoreSite\wwwroot\app\timer</BuildOutputFolder>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\components\tag\" />
+    <Folder Include="src\app\components\timeentry\" />
+    <Folder Include="src\app\components\project\" />
+  </ItemGroup>
+</Project>

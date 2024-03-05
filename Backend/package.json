@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "qs": "^6.11.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^15.2.4",
+    "@angular/common": "^15.2.3",
+    "@angular/core": "^15.2.3"
+  }
+}

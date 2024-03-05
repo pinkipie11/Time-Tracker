@@ -1,0 +1,23 @@
+<p>project-edit works!</p>
+
+<h2 *ngIf="projectId">Edit Project</h2>
+<h2 *ngIf="!projectId">Add Project</h2>
+
+<ng-container *ngIf="project">
+  <form>
+    <div>
+      <label for="name">Name</label>
+      <input [(ngModel)]="project.name" id="name" name="name" type="text" required [ngModelOptions]="{ standalone: true }">
+    </div>
+    <div>
+      <label for="description">Description</label>
+      <textarea [(ngModel)]="project.description" id="description" name="description" required [ngModelOptions]="{ standalone: true }"></textarea>
+    </div>
+    <div>
+      <label for="completedDate">Completed Date</label>
+      <input [(ngModel)]="project.completedDate" id="completedDate" name="completedDate" type="date" [ngModelOptions]="{ standalone: true }">
+    </div>
+    <button (click)="saveProject()" type="button">Save</button>
+  </form>
+
+</ng-container>
