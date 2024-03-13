@@ -1,1 +1,1 @@
-This is project in React, ASP.NET & MS SQL that I was working on other repository. I copied it only for showcase.
+https://1permil.com/app/timer/ This is project in React, ASP.NET & MS SQL that I was working on other repository. I copied it only for showcase. This project currently uses APIs set up on a local server due to the focus on developmental and testing activities before the application moves to the production stage.
